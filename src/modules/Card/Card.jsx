@@ -5,7 +5,7 @@ export const Card = ({ className, img, title, dateDelivery, price }) => (
   <article className={classNames(className, "card")}>
     <img className="card__image"
          src={img}
-         alt={<title></title>}
+         alt={title}
     />
     <div className="card__content">
       <h3 className="card__title">{title}</h3>
