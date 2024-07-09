@@ -1,3 +1,5 @@
+import './cartItem.scss';
+
 export const CartItem = ({ img, title, price }) => (
   <li className="cart__item">
   <img className="cart__img"
